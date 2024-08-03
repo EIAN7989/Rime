@@ -1,0 +1,20 @@
+customization:
+  distribution_code_name: Hamster
+  distribution_version: ""
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Thu Aug  1 00:12:47 2024"
+  rime_version: 1.11.2
+patch:
+  schema_list:
+    - {schema: t9}
+    - {schema: rime_ice}
+
+  # 九宫格 1 键上的符号序列
+  punctuator/+:
+    half_shape:
+      "1": ["，", "。", "？", "！", "、", "：", "；", "“", "”", "‘", "’", "@", "···", "'", "～", "·", "＃", "＊", "|", "￥", "&", "‖", "〈", "〉", "«", "»", "（", "）", "【", "】", "〖", "〗", "《", "》", "［", "］", "｛", "｝", "「", "」", "『", "』", "〈", "〉",]
+
+  # 输入时按 1 可以分词
+  key_binder:
+    bindings:
+      - { when: has_menu, accept: 1, send: apostrophe }

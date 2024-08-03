@@ -1,0 +1,7 @@
+# 以 patch: 开头，后面的内容都需要缩进
+patch:
+  "style/color_scheme": ink
+  "style/horizontal": ture
+  "style/font_face": "Microsoft YaHei" #字体
+  "style/font_point": 14 #字体大小
+  "style/inline_preedit": true # 嵌入式候选窗单行显示

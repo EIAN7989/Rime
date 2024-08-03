@@ -1,0 +1,1000 @@
+patch:
+  #九宫格滑动设置
+  swipe/+:
+    keyboardSwipe:
+      #九宫格键盘区域
+      chineseNineGrid:
+        keys:
+          - action: { chineseNineGrid: { symbol: { char: "@/." } } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "1" } }
+                label: "1"
+                display: true
+            callout:
+              - action:
+                  symbol:
+                    char: 壹
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 一
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊀
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 1️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➀
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ①
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➊
+                label:
+                  text: ""
+
+          - action: { chineseNineGrid: { symbol: { char: "ABC" } } }
+            swipe:
+              - direction: up
+                action: { symbol: { char: "2" } }
+                label: "2"
+                display: true
+              - direction: down
+                action: { shortcutCommand: "#行首" }
+                label: "↖"
+                processByRIME: true
+                display: true
+            callout:
+              - action:
+                  symbol:
+                    char: 贰
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 二
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊁
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 2️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➁
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ②
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➋
+                label:
+                  text: ""
+
+          - action: { chineseNineGrid: { symbol: { char: "DEF" } } }
+            swipe:
+              - direction: up
+                action: { symbol: { char: "3" } }
+                label: "3"
+                display: true
+              - direction: down
+                action: { shortcutCommand: "#行尾" }
+                label: "↘"
+                processByRIME: true
+                display: true
+            callout:
+              - action:
+                  symbol:
+                    char: 叁
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 三
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊂
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 3️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➂
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ③
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➌
+                label:
+                  text: ""
+
+          - action: { chineseNineGrid: { symbol: { char: "GHI" } } }
+            swipe:
+              - direction: up
+                action: { symbol: { char: "4" } }
+                label: "4"
+                display: true
+              - direction: down
+                action: { shortcutCommand: "#全选" }
+                label: "Select ALL"
+                processByRIME: true
+                display: true
+            callout:
+              - action:
+                  symbol:
+                    char: 肆
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 四
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊃
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 4️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➃
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ④
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➍
+                label:
+                  text: ""
+
+          - action: { chineseNineGrid: { symbol: { char: "JKL" } } }
+            swipe:
+              - direction: up
+                action: { symbol: { char: "5" } }
+                label: "5"
+                display: true
+              - direction: down
+                action: { shortcutCommand: "#复制" }
+                label: "Copy"
+                processByRIME: true
+                display: true
+            callout:
+              - action:
+                  symbol:
+                    char: 伍
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 五
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊄
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 5️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➄
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ⑤
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➎
+                label:
+                  text: ""
+
+          - action: { chineseNineGrid: { symbol: { char: "MNO" } } }
+            swipe:
+              - direction: up
+                action: { symbol: { char: "6" } }
+                label: "6"
+                display: true
+              - direction: down
+                action: { shortcutCommand: "#粘贴" }
+                label: "Paste"
+                processByRIME: true
+                display: true
+            callout:
+              - action:
+                  symbol:
+                    char: 陆
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 六
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊅
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 6️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➅
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ⑥
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➏
+                label:
+                  text: ""
+
+          - action: { chineseNineGrid: { symbol: { char: "PQRS" } } }
+            swipe:
+              - direction: up
+                action: { symbol: { char: "7" } }
+                label: "7"
+                display: true
+              - direction: down
+                action: { shortcutCommand: "#撤销" }
+                label: "Undo"
+                display: true
+                processByRIME: true
+            callout:
+              - action:
+                  symbol:
+                    char: 柒
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 七
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊆
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 7️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➆
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ⑦
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➐
+                label:
+                  text: ""
+
+          - action: { chineseNineGrid: { symbol: { char: "TUV" } } }
+            swipe:
+              - direction: up
+                action: { symbol: { char: "8" } }
+                label: "8"
+                display: true
+              - direction: down
+                action: { shortcutCommand: "#剪切" }
+                label: "Cut"
+                processByRIME: true
+                display: true
+            callout:
+              - action:
+                  symbol:
+                    char: 捌
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 八
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊇
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 8️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➇
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ⑧
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➑
+                label:
+                  text: ""
+
+          - action: { chineseNineGrid: { symbol: { char: "WXYZ" } } }
+            swipe:
+              - direction: up
+                action: { symbol: { char: "9" } }
+                label: "9"
+                display: true
+
+              - direction: down
+                action: { shortcutCommand: "#重做" }
+                label: "Redo"
+                display: true
+                processByRIME: true
+
+            callout:
+              - action:
+                  symbol:
+                    char: 玖
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 九
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ㊈
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: 9️⃣
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➈
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ⑨
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ➒
+                label:
+                  text: ""
+
+          - action: space
+            label: 
+              loadingText: ""
+              text: ""
+            swipe:
+              - direction: up
+                action: { symbol: { char: "0" } }
+                label: "0"
+                display: true
+
+          - action: backspace
+            swipe:
+              - direction: up
+                action: { shortcutCommand: "#清空" }
+                label: ""
+                display: true
+                processByRIME: true
+
+            # 自定义滑动设置
+            #swipe:
+              #- direction: up
+                #action: { symbol: { char: "！" } }
+                #label: "！"
+                #display: true
+
+            # 自定义滑动设置
+            #swipe:
+              #- direction: down
+                #action: { shortcutCommand: "#重做" }
+                #label: "重做"
+                #display: true
+                #processByRIME: true
+
+      #英文26键盘区域
+      alphabetic:
+        keys:
+          #qwe······设置
+          - action: { symbol: { char: "q" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "1" } }
+                label: "1"
+                display: true
+          - action: { symbol: { char: "w" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "2" } }
+                label: "2"
+                display: true
+          - action: { symbol: { char: "e" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "3" } }
+                label: "3"
+                display: true
+            callout:
+              - action:
+                  symbol:
+                    char: ē
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: é
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ě
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: è
+                label:
+                  text: ""
+
+          - action: { symbol: { char: "r" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "4" } }
+                label: "4"
+                display: true
+          - action: { symbol: { char: "t" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "5" } }
+                label: "5"
+                display: true
+          - action: { symbol: { char: "y" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "6" } }
+                label: "6"
+                display: true
+          - action: { symbol: { char: "u" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "7" } }
+                label: "7"
+                display: true
+            callout:
+              - action:
+                  symbol:
+                    char: ū
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ú
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ǔ
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ù
+                label:
+                  text: ""
+
+          - action: { symbol: { char: "i" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "8" } }
+                label: "8"
+                display: true
+            callout:
+              - action:
+                  symbol:
+                    char: ī
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: í
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ǐ
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ì
+                label:
+                  text: ""
+
+          - action: { symbol: { char: "o" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "9" } }
+                label: "9"
+                display: true
+            callout:
+              - action:
+                  symbol:
+                    char: ō
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ó
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ǒ
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ò
+                label:
+                  text: ""
+
+          - action: { symbol: { char: "p" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "0" } }
+                label: "0"
+                display: true
+          - action: { symbol: { char: "a" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "@" } }
+                label: "@"
+                display: true
+              - direction: down
+                action: { shortcutCommand: "#全选" }
+                label: "全选"
+                display: true
+                processByRIME: true
+            callout:
+              - action:
+                  symbol:
+                    char: ā
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: á
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ǎ
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: à
+                label:
+                  text: ""
+
+          - action: { symbol: { char: "s" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "＃" } }
+                label: "＃"
+                display: true
+          - action: { symbol: { char: "d" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "¥" } }
+                label: "¥"
+                display: true
+          - action: { symbol: { char: "f" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "/" } }
+                label: "/"
+                display: true
+          - action: { symbol: { char: "g" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "（" } }
+                label: "（"
+                display: true
+          - action: { symbol: { char: "h" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "）" } }
+                label: "）"
+                displ1ay: true
+            callout:
+              - action:
+                  symbol:
+                    char: https://
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: http://
+                label:
+                  text: ""
+
+          - action: { symbol: { char: "j" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "“" } }
+                label: "“"
+                display: true
+          - action: { symbol: { char: "k" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "”" } }
+                label: "”"
+                display: true
+          - action: { symbol: { char: "l" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "’" } }
+                label: "’"
+                display: true
+          #zxc······设置
+          - action: { symbol: { char: "z" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "%" } }
+                label: "%"
+                display: true
+              - direction: down
+                action: { shortcutCommand: "#撤销" }
+                label: "撤销"
+                display: true
+                processByRIME: true
+
+          - action: { symbol: { char: "x" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "-" } }
+                label: "-"
+                display: true
+              - direction: down
+                action: { shortcutCommand: "#剪切" }
+                label: "剪切"
+                display: true
+                processByRIME: true
+
+          - action: { symbol: { char: "c" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "～" } }
+                label: "～"
+                display: true
+              - direction: down
+                action: { shortcutCommand: "#复制" }
+                label: "复制"
+                display: true
+                processByRIME: true
+
+          - action: { symbol: { char: "v" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "…" } }
+                label: "…"
+                display: true
+              - direction: down
+                action: { shortcutCommand: "#粘贴" }
+                label: "粘贴"
+                display: true
+                processByRIME: true
+            callout:
+              - action:
+                  symbol:
+                    char: ü
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ǖ
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ǘ
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ǚ
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ǜ
+                label:
+                  text: ""
+
+          - action: { symbol: { char: "b" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "、" } }
+                label: "、"
+                display: true
+              - direction: down
+                action: { shortcutCommand: "#重做" }
+                label: "重做"
+                display: true
+                processByRIME: true
+
+          - action: { symbol: { char: "n" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "；" } }
+                label: "；"
+                display: true
+              - direction: down
+                action: { shortcutCommand: "#行首" }
+                label: "↖"
+                display: true
+                processByRIME: true
+
+          - action: { symbol: { char: "m" } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "：" } }
+                label: "："
+                display: true
+              - direction: down
+                action: { shortcutCommand: "#行尾" }
+                label: "↘"
+                display: true
+                processByRIME: true
+
+          - action: { symbol: { char: "," } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "！" } }
+                label: "！"
+                display: true
+          - action: { symbol: { char: "." } }
+            # 自定义滑动设置
+            swipe:
+              - direction: up
+                action: { symbol: { char: "？" } }
+                label: "？"
+                display: true
+            callout:
+              - action:
+                  symbol:
+                    char: ".com" 
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: ".cn"
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: "@qq.com"
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: "@gmail.com"
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: "@163.com"
+                label:
+                  text: ""
+              - action:
+                  symbol:
+                    char: "@outlook.com"
+                label:
+                  text: ""
+
+          - action: backspace
+            swipe:
+              - direction: up
+                action: { shortcutCommand: "#清空" }
+                label: ""
+                display: true
+                processByRIME: true
+
+          #最后一行
+          - action: space
+            label: 
+              loadingText: ""
+              text: ""
+
+# 键盘相关配置
+  keyboard/+:
+    #数字九宫格左侧
+    symbolsOfGridOfNumericKeyboard:
+        - ＝
+        - +
+        - "-"
+        - "×"
+        - /
+        - "%"
+        - ≠
+
+  # 设置符号光标居中
+    symbolsOfCursorBack:
+      - "「」"
+      - '""'
+      - "“”"
+      - "[]"
+      - "《》"
+      - "{}"
+      - "【】"
+      - "''"
+      - "〖〗"
+      - "〈〉"
+      - "()"
+      - "（）"
+  # 返回主键盘的符号
+    symbolsOfReturnToMainKeyboard:
+      - "，"
+      - "。"
+      - "！"
+      - ";"
+  # 九宫格键盘符号
+    symbolsOfChineseNineGridKeyboard:
+      - ","
+      - ":"
+      - ";"
+      - "?"
+      - "!"
+      - "*"
+  # 成对上屏的符号
+    pairsOfSymbols:
+      - "“”"
+      - "''"
+      - "[]"
+      - "()"
+      - "{}"
+      - "（）"
+      - "《》"
+      - "【】"
+      - "「」"
+      - "〖〗"
+  # 启用分类符号键盘
+    enableSymbolKeyboard: true
+  # 符号键盘锁定
+    lockForSymbolKeyboard: false
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

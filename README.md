@@ -1,7 +1,5 @@
 # 雾凇拼音
 
-![demo](./others/demo.webp)
-
 功能齐全，词库体验良好，长期更新修订。
 
 <br>
@@ -192,33 +190,3 @@ patch:
       - { when: paging, accept: comma, send: Page_Up }
       - { when: has_menu, accept: period, send: Page_Down }
 ```
-
-</details>
-
-<br>
-
-## 感谢 ❤️
-
-感谢上述提到的词库、方案及功能参考。
-
-感谢 [@Huandeep](https://github.com/Huandeep) 整理的多个词库。
-
-感谢 [@Mirtle](https://github.com/mirtlecn) 完善的多个功能。
-
-感谢所有贡献者。
-
-搜狗转 Rime：[lewangdev/scel2txt](https://github.com/lewangdev/scel2txt)
-
-大量参考 [校对标准论坛](http://www.jiaodui.com/bbs/)
-
-Thanks to JetBrains for the OSS development license.
-
-[![JetBrains](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)](https://jb.gg/OpenSourceSupport)
-
-<br>
-
-## 赞助 ☕
-
-如果觉得项目不错，可以请 Dvel 吃个煎饼馃子。
-
-<img src="./others/sponsor.webp" alt="请 Dvel 吃个煎饼馃子" width=600 />
